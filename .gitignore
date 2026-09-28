@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyTorch models
+*.pt
+*.pth
+*.ckpt
+
+# Dataset
+*.npz
+*.npy
+*.csv
+
+# ROS2 build files
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp

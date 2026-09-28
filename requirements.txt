@@ -1,0 +1,24 @@
+# xArm6 World Model MPC
+
+A world-model-based planning and control project for the xArm6 robot using ROS2, PyTorch, CEM, and Model Predictive Control (MPC).
+
+## Overview
+
+This project investigates learned dynamics models for robotic control.
+
+The pipeline is:
+
+```text
+ROS2 xArm6
+    ↓
+Trajectory Data Collection
+    ↓
+Learned World Model
+    ↓
+Multi-step Imagination
+    ↓
+CEM Planning
+    ↓
+Model Predictive Control
+    ↓
+Closed-loop Robot Control
