@@ -20,6 +20,21 @@ from xarm_learning.manual_fk import (
     forward_kinematics
 )
 
+MODEL_PATH = os.environ.get("XARM_WORLD_MODEL_PATH")
+DATA_PATH = os.environ.get("XARM_WORLD_MODEL_DATA")
+
+
+if MODEL_PATH is None:
+    raise RuntimeError(
+        "XARM_WORLD_MODEL_PATH is not set. "
+        "Please export the path to the trained model."
+    )
+
+if DATA_PATH is None:
+    raise RuntimeError(
+        "XARM_WORLD_MODEL_DATA is not set. "
+        "Please export the path to the dataset."
+    )
 
 # ==========================================================
 # Paths
