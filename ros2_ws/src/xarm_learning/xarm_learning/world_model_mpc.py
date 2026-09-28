@@ -25,19 +25,6 @@ from xarm_learning.manual_fk import (
 # Paths
 # ==========================================================
 
-MODEL_PATH = os.path.expanduser(
-    "~/embodied_projects/"
-    "xarm_world_model/"
-    "models/"
-    "multi_step_world_model.pt"
-)
-
-DATA_PATH = os.path.expanduser(
-    "~/embodied_projects/"
-    "xarm_world_model/"
-    "data/"
-    "xarm_world_model_15d.npz"
-)
 
 
 # ==========================================================
